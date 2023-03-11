@@ -109,9 +109,6 @@ $
 ## Format of Command Input
 
 In order to give commands to the console, these will need to be piped through an echo in case of  **Non-interactive mode**.
-
-##REVIEWED
-
 In  **Interactive Mode**  the commands will need to be written with a keyboard when the prompt appears and will be recognized when an enter key is pressed (new line). As soon as this happens, the console will attempt to execute the command through several means or will show an error message if the command didn't run successfully. In this mode, the console can be exited using the **CTRL + D** combination,  **CTRL + C**, or the command **quit** or **EOF**.
 
 ## Arguments
@@ -168,4 +165,4 @@ The recognizable commands by the interpreter are the following:
 | **-----** | **-----** |
 | **count** | Retrieve the number of instances of a class.  |
 | **Usage** | **<class name\>.count()** |
-
+##reviewed
